@@ -2,19 +2,31 @@
 
 If you are seeking any potential academic collaboration, welcome to contact us by email:
 
-📫: **sijiexiongkyushu@gmail.com**
+📫: **[sijiexiongkyushu@gmail.com](sijiexiongkyushu@gmail.com)**
 
-📫: **xiong.sijie.630@s.kyushu-u.ac.jp**
-
+📫: **[xiong.sijie.630@s.kyushu-u.ac.jp](xiong.sijie.630@s.kyushu-u.ac.jp)**
 I have been pursuing my Ph.D. degree at **Kyushu University, Japan** as of April 2024 following [Prof. Atsushi Shimada (島田 敬士 シマダ アツシ )](https://sites.google.com/view/atsushishimada/), and have a joint background in **Control & Optimization**, **Control Theory**, **Mechanics**, **Finance**, and **Deep Learning**.
 
 [//]: # (Previous to this SGU-Ph.D. program, I have obtained M.Sc. in Control & Optimization, B.Eng. in Control Systems, and B.Sc. &#40;Hon.&#41; in Applied Accounting.)
 
-I graduated from the Department of Electrical and Electronic Engineering at **Imperial College London** and obtained a Master degree in Control Systems with Distinction under the supervision of [Prof. Giordano Scarciotti](https://giordanoscarciotti.com/) in 2021.
+I graduated from the Department of Electrical and Electronic Engineering at **Imperial College London** and obtained a Master degree in Control Systems with Distinction in 2021.
 
-Prior to that, I received my Bachelor degree in Automation from the College of Energy and Electrical Engineering, **Hohai University** in 2020 with the supervision from [Prof. Yinlong Hu (胡银龙)](https://jszy.hhu.edu.cn/hyl/).
+Prior to that, I received my Bachelor degree in Automation from the College of Energy and Electrical Engineering, **Hohai University** in 2020.
 
 I also obtained an honor Bachelor degree in Applied Accounting from **Oxford Brookes University** jointly with **[ACCA](https://www.accaglobal.com/us/en.html)**.
+
+[//]: # (I have been pursuing my Ph.D. degree at **Kyushu University, Japan** as of April 2024 following [Prof. Atsushi Shimada &#40;島田 敬士 シマダ アツシ &#41;]&#40;https://sites.google.com/view/atsushishimada/&#41;, and have a joint background in **Control & Optimization**, **Control Theory**, **Mechanics**, **Finance**, and **Deep Learning**.)
+
+[//]: # ()
+[//]: # ([//]: # &#40;Previous to this SGU-Ph.D. program, I have obtained M.Sc. in Control & Optimization, B.Eng. in Control Systems, and B.Sc. &#40;Hon.&#41; in Applied Accounting.&#41;)
+[//]: # ()
+[//]: # (I graduated from the Department of Electrical and Electronic Engineering at **Imperial College London** and obtained a Master degree in Control Systems with Distinction under the supervision of [Prof. Giordano Scarciotti]&#40;https://giordanoscarciotti.com/&#41; in 2021.)
+
+[//]: # ()
+[//]: # (Prior to that, I received my Bachelor degree in Automation from the College of Energy and Electrical Engineering, **Hohai University** in 2020 with the supervision from [Prof. Yinlong Hu &#40;胡银龙&#41;]&#40;https://jszy.hhu.edu.cn/hyl/&#41;.)
+
+[//]: # ()
+[//]: # (I also obtained an honor Bachelor degree in Applied Accounting from **Oxford Brookes University** jointly with **[ACCA]&#40;https://www.accaglobal.com/us/en.html&#41;**.)
 
 [//]: # (Apart from degrees, I have been a member of several associations on Accounting and Finance:)
 
