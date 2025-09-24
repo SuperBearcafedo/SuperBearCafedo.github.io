@@ -2,7 +2,7 @@ name: Update github myprofile
 
 on:
   page_build:
-  workflow_dispatch:   # 方便你手动触发
+  workflow_dispatch:   # 手动触发，方便你随时运行
 
 jobs:
   build:
@@ -17,22 +17,21 @@ jobs:
 
       - name: Run
         env:
-          # 你原来的 TOKEN 仍然使用
-          REMOTE_REPO: "https://${GITHUB_ACTOR}:${{ secrets.TOKEN }}@github.com/SuperBearcafedo/SuperBearcafedo.git"
+          REMOTE_REPO: "https://SuperBearcafedo:${{ secrets.TOKEN }}@github.com/SuperBearcafedo/SuperBearcafedo.git"
         run: |
-          set -e
-          # 运行更新脚本（在子目录）
+          # 运行更新脚本
           cd ./github_myprofile_updater
           python3 update.py
 
-          # 回到仓库根目录再进行 git 提交与推送（不要在子目录里 git init）
+          # 回到仓库根目录做提交
           cd "${GITHUB_WORKSPACE}"
 
-          git config --local user.name "${GITHUB_ACTOR}"
+          git config --local user.name "SuperBearcafedo"
           git config --local user.email "sjiexiongmore@outlook.com"
 
           git add README.md
           git add images || true
           git commit -m "update my description automatically" || echo "nothing to commit"
 
+          # 推送到目标仓库 main 分支
           git push "${REMOTE_REPO}" HEAD:main --force
