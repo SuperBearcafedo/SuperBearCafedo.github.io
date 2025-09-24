@@ -37,4 +37,4 @@ jobs:
         git commit -m "update my description automatically" || echo "nothing to commit"
 
         # 直接推送到目标仓库的 main 分支
-        git push "${REMOTE_REPO}" HEAD:master --force
+        git push "${REMOTE_REPO}" HEAD:main --force
