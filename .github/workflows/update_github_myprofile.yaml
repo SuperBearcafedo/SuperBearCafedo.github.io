@@ -1,40 +1,23 @@
 name: Update github myprofile
 
-on:
-  page_build:
-  workflow_dispatch:
-
+on: 'page_build'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
     - name: Install Reqs
       run: |
-        sudo apt-get update -y
-        sudo apt-get install -y python3-setuptools
-
+        sudo apt-get install python3-setuptools
     - name: Run
-      env:
-        # 用你的账号名 + PAT（classic，repo 权限；或 fine-grained 对目标仓库 Contents: Read/Write + SSO 授权）
-        REMOTE_REPO: "https://SuperBearcafedo:${{ secrets.TOKEN }}@github.com/SuperBearcafedo/SuperBearcafedo.git"
       run: |
-        set -e
-
-        # 运行脚本（生成/更新 README.md 与 images）
         cd ./github_myprofile_updater
         python3 update.py
-
-        # 回到仓库根目录提交
-        cd "${GITHUB_WORKSPACE}"
-
-        git config --local user.name "SuperBearcafedo"
-        git config --local user.email "sijiexiongmore@outlook.com"  # 你上条里写的是这个邮箱
-
+        git init
+        git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "sjiexiongmore@outlook.com"
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.TOKEN }}@github.com/SuperBearcafedo/SuperBearcafedo.git"
         git add README.md
-        git add images || true
-        git commit -m "update my description automatically" || echo "nothing to commit"
-
-        # 直接推送到目标仓库的 main 分支
-        git push "${REMOTE_REPO}" HEAD:main --force
+        git add images
+        git commit -m "update my description automatically"
+        git push "${remote_repo}" HEAD:main --force
