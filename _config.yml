@@ -6,30 +6,30 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yi Ren (任意)"
-description              : "Focusing on video and speech large generation model."
-repository               : "rayeren/rayeren.github.io"
+title                    : "Sijie Xiong (熊思杰)"
+description              : "Main Research Interest: Time Series Forecasting, Medical Segmentation, Medical Classification."
+repository               : "SuperBearCafedo/SuperBearCafedo.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      : G-SWFCX99KQZ
+#google_analytics_id      : G-SWFCX99KQZ
 
-# SEO Related
-google_site_verification : b_BbOIt7d513ZXYDw-YRMicO6O5tthYiouqWDdWjGTU
-bing_site_verification   : B5AA590E7B9C03956A6F7DEC0F776211
-baidu_site_verification  : code-ZxFK3f4pfb
+## SEO Related
+#google_site_verification : b_BbOIt7d513ZXYDw-YRMicO6O5tthYiouqWDdWjGTU
+#bing_site_verification   : B5AA590E7B9C03956A6F7DEC0F776211
+#baidu_site_verification  : code-ZxFK3f4pfb
 
 # Site Author
 author:
-  name             : "Yi Ren (任意)"
-  avatar           : "images/ry_profile.jpeg"
+  name             : "Sijie Xiong (熊思杰)"
+  avatar           : "images/sjx_profile.png"
   bio              : ""
-  location         : "Singapore"
+  location         : "Fukuoka"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=4FA6C0AAAAAJ"
-  email            : "rayeren613@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=4wSErVUAAAAJ"
+  email            : "xiong.sijie.630@s.kyushu-u.ac.jp"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -37,15 +37,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "RayeRen"
+  github           : "SuperBearCafedo"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "rayeren"
-  dblp             : "https://dblp.org/pid/75/6568-6.html"
-  orcid            : "https://orcid.org/0000-0002-9160-3848"
+  linkedin         :
+  dblp             : #"https://dblp.org/pid/75/6568-6.html"
+  orcid            : "https://orcid.org/0009-0000-2728-235X"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
