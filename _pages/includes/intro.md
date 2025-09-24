@@ -5,6 +5,7 @@ If you are seeking any potential academic collaboration, welcome to contact us b
 📫: **[sijiexiongkyushu@gmail.com](sijiexiongkyushu@gmail.com)**
 
 📫: **[xiong.sijie.630@s.kyushu-u.ac.jp](xiong.sijie.630@s.kyushu-u.ac.jp)**
+
 I have been pursuing my Ph.D. degree at **Kyushu University, Japan** as of April 2024 following [Prof. Atsushi Shimada (島田 敬士 シマダ アツシ )](https://sites.google.com/view/atsushishimada/), and have a joint background in **Control & Optimization**, **Control Theory**, **Mechanics**, **Finance**, and **Deep Learning**.
 
 [//]: # (Previous to this SGU-Ph.D. program, I have obtained M.Sc. in Control & Optimization, B.Eng. in Control Systems, and B.Sc. &#40;Hon.&#41; in Applied Accounting.)

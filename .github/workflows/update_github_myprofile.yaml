@@ -1,54 +1,23 @@
 name: Update github myprofile
 
-on:
-  page_build:
-  workflow_dispatch:   # 手动触发，方便你随时运行
-
+on: 'page_build'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Install Reqs
-        run: |
-          sudo apt-get update -y
-          sudo apt-get install -y python3-setuptools
-
-      # 🔎 预检：确认 TOKEN 存在 + 能访问目标仓库
-      - name: Preflight auth check
-        env:
-          REMOTE_REPO: "https://SuperBearcafedo:${{ secrets.TOKEN }}@github.com/SuperBearcafedo/SuperBearcafedo.git"
-        run: |
-          # 1) 检查 TOKEN 是否存在
-          if [ -z "${{ secrets.TOKEN }}" ]; then
-            echo "::error::Missing secrets.TOKEN. Go to Settings → Secrets and variables → Actions, add TOKEN (a PAT with repo write)."
-            exit 1
-          fi
-          # 2) 快速探测权限（无输出，失败才报错）
-          if ! git ls-remote "$REMOTE_REPO" >/dev/null 2>&1; then
-            echo "::error::Cannot access target repo with provided TOKEN. Check: (a) PAT scope=repo (classic) 或 fine-grained授予该仓库的Contents:Read/Write；(b) 若是组织仓库需SSO授权；(c) 仓库是否私有且PAT可见。"
-            exit 1
-          fi
-          echo "Auth check passed."
-
-      - name: Run
-        env:
-          REMOTE_REPO: "https://SuperBearcafedo:${{ secrets.TOKEN }}@github.com/SuperBearcafedo/SuperBearcafedo.git"
-        run: |
-          # 运行更新脚本
-          cd ./github_myprofile_updater
-          python3 update.py
-
-          # 回到仓库根目录做提交
-          cd "${GITHUB_WORKSPACE}"
-
-          git config --local user.name "SuperBearcafedo"
-          git config --local user.email "sjiexiongmore@outlook.com"
-
-          git add README.md
-          git add images || true
-          git commit -m "update my description automatically" || echo "nothing to commit"
-
-          # 推送到目标仓库 main 分支
-          git push "${REMOTE_REPO}" HEAD:main --force
+    - uses: actions/checkout@v2
+    - name: Install Reqs
+      run: |
+        sudo apt-get install python3-setuptools
+    - name: Run
+      run: |
+        cd ./github_myprofile_updater
+        python3 update.py
+        git init
+        git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "sijiexiongmore@outlook.com"
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GHRS_GITHUB_API_TOKEN }}@github.com/SuperBearcafedo/SuperBearcafedo.git"
+        git add README.md
+        git add images
+        git commit -m "update my description automatically"
+        git push "${remote_repo}" HEAD:main --force
