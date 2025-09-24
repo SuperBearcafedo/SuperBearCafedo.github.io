@@ -15,6 +15,23 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y python3-setuptools
 
+      # 🔎 预检：确认 TOKEN 存在 + 能访问目标仓库
+      - name: Preflight auth check
+        env:
+          REMOTE_REPO: "https://SuperBearcafedo:${{ secrets.TOKEN }}@github.com/SuperBearcafedo/SuperBearcafedo.git"
+        run: |
+          # 1) 检查 TOKEN 是否存在
+          if [ -z "${{ secrets.TOKEN }}" ]; then
+            echo "::error::Missing secrets.TOKEN. Go to Settings → Secrets and variables → Actions, add TOKEN (a PAT with repo write)."
+            exit 1
+          fi
+          # 2) 快速探测权限（无输出，失败才报错）
+          if ! git ls-remote "$REMOTE_REPO" >/dev/null 2>&1; then
+            echo "::error::Cannot access target repo with provided TOKEN. Check: (a) PAT scope=repo (classic) 或 fine-grained授予该仓库的Contents:Read/Write；(b) 若是组织仓库需SSO授权；(c) 仓库是否私有且PAT可见。"
+            exit 1
+          fi
+          echo "Auth check passed."
+
       - name: Run
         env:
           REMOTE_REPO: "https://SuperBearcafedo:${{ secrets.TOKEN }}@github.com/SuperBearcafedo/SuperBearcafedo.git"
