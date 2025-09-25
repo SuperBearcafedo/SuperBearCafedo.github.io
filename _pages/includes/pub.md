@@ -33,7 +33,7 @@
 </div>
 
 ## 🏫 Education
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLEA (The Best Poster)</div><img src='images/FairytaleQA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLEA 2025 (The Best Poster)</div><img src='images/FairytaleQA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Fine-tuned T5 Models on FairytaleQA Chinese Dataset](https://library.apsce.net/index.php/ICLEA/article/view/5529) \\
@@ -54,4 +54,4 @@
 - Tao Sun, Li Chen, **Sijie Xiong**, Cheng Tang, Gen Li, Atsushi Shimada, "[FERL-YOLO: Facial Expression Recognition Model of Learners](https://library.apsce.net/index.php/ICLEA/article/view/5498)", *in 2025 International Conference on Learning Evidence and Analytics (**ICLEA**), APSCE*. Sep. 2025.
 - Shuqing Liu, Li Chen, **Sijie Xiong**, Haiqiao Liu, Cheng Tang, Atsushi Shimada, "[DiaRoBERTa: A Multi-Party Dialogue Model for Multi-Skill Recognition in Classroom Collaborative Problem Solving Discussions](https://library.apsce.net/index.php/ICLEA/article/view/5475)", *in 2025 International Conference on Learning Evidence and Analytics (**ICLEA**), APSCE*. Sep. 2025.
 - Haiqiao Liu, Tsubasa Minematsu, Chengjiu Yin, Shuqing Liu, **Sijie Xiong**, Atsushi Shimada, "[Integrating Scaffolding Strategies with Environmental Monitoring Systems to Enhance Learning and Practical Skills in Agricultural Education](https://library.apsce.net/index.php/ICLEA/article/view/5497)", *in 2025 International Conference on Learning Evidence and Analytics (**ICLEA**), APSCE*. Sep. 2025.
-- 
+

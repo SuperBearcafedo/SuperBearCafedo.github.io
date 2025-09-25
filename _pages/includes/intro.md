@@ -1,6 +1,6 @@
 📖 My current research interests are: **time series forecasting**, **medical image segmentation**, **control theory**.
 
-If you are seeking any potential academic collaboration, welcome to contact us by email:
+If you are seeking any potential academic collaboration, welcome to contact me by email:
 
 📫: **[sijiexiongkyushu@gmail.com](sijiexiongkyushu@gmail.com)**
 
@@ -41,6 +41,6 @@ Apart from degrees, I have been a member of the following associations on busine
 - 💰 **[CQF](https://www.cqf.com/about-cqf/program-structure/program-overview)**, since 2022 (with **Distinction**).
 - ⛰️ **[FRM](https://www.garp.org/frm)**, since 2021.
 - 📒 **[ACCA](https://www.accaglobal.com/us/en.html)**, since 2022.
-- ♻️ **[CFA Sustainable Investing Certificate](https://www.cfainstitute.org)**, since 2024,
+- ♻️ **[CFA Sustainable Investing Certificate](https://www.cfainstitute.org)**, since 2024.
 
-I have published a few small papers in excellent journals and conferences, such as [ASOC](https://www.sciencedirect.com/journal/applied-soft-computing), [CAI](https://cai.ieee.org/2025/), [EMBC](https://embc.embs.org/2025/), [SMC](https://www.ieeesmc2025.org/). You can find my publications on Google Scholar.
+I have published some small papers in excellent journals and conferences, such as [ASOC](https://www.sciencedirect.com/journal/applied-soft-computing), [CAI](https://cai.ieee.org/2025/), [EMBC](https://embc.embs.org/2025/), [SMC](https://www.ieeesmc2025.org/). You can find my publications on Google Scholar.

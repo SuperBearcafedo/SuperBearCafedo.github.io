@@ -21,10 +21,10 @@ google_scholar_stats_use_cdn : true
 
 # Site Author
 author:
-  name             : "Sijie Xiong (熊思杰)"
+  name             : "Sijie Xiong"
   avatar           : "images/sjx_profile.png"
   bio              : ""
-  location         : "Fukuoka"
+  location         : "Fukuoka, Japan"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=4wSErVUAAAAJ"
