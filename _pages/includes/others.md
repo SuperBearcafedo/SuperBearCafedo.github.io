@@ -16,4 +16,4 @@
 
 
 # 💻 Internships
-- *2021.09 - 2021.012*, Portfolio Investment Strategy Intern, China Futures Co., Ltd., Shanghai.
+- *2021.09 - 2021.12*, Portfolio Investment Strategy Intern, China Futures Co., Ltd., Shanghai.
