@@ -68,7 +68,21 @@ Youhao Xu+, **Sijie Xiong+**, Tao Sun, Jianing Wang, Cheng Tang, Atsushi Shimada
 </div>
 
 ## 🚥🚦 Control & Time Series Forecasting
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC</div><img src='images/CMEMamba.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC</div><img src='images/UMA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Unified Framework with Differential State Space Representations under Parallel Encoder and Decoder Scheme for Time Series Forecasting](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence) \\
+**Sijie Xiong**, Yuanyuan Zhang, Cheng Tang, Haoling Xiong, Yiding Li, Atsushi Shimada
+
+[**Project**](https://github.com/Kyushu-U-AI/U-MA-EAAI-Official) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+
+- **Abstract**:  Accurate time series forecasting plays a pivotal role across numerous real-world domains, underpinning applications ranging from finance to traffic management. Selective state space models that draw inspiration from control theory, displaying superior performance in multivariate time series forecasting. However, few variants offer a unified approach capable of achieving leading performance across simple and complex scenarios. An encoder and decoder convolutional network with skip connections can alleviate this issue. Thus, this paper proposes an innovative artificial intelligence framework for time series forecasting across diverse domains, borrowing the concept of encoder and decoder schemes and introducing a parallel encoder and decoder structure based on selective state space representations.  The proposed model enhances the vanilla selective state space models by integrating a forget gate mechanism, and a differential operation is incorporated to filter out random noise from transient signals, effectively refining and enhancing distinct features. Moreover, this framework incorporates long short term memory function along with an embedding channel attention mechanism to alleviate the potential disruption of long-term dependencies caused by down-sampling. This combination ensures the preservation of long-range embeddings and attentions, enhancing overall forecasting performance. Extensive experiments on benchmarking models and principal components across a wide range of prominent datasets highlight the unified effectiveness of the proposed framework in various scenarios, solidifying the superior position among leading models.
+- **Core Idea**: Leverage Mamba and parallel U-Net structure with differential operations to cater for general time series forecasting.
+- **Domain**: Time Series Forecasting, Control, Noise Reduction
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ICASSP 2026 (Oral)</div><img src='images/KPMG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Enhancing Nonlinear Dependencies of Mamba via Negative Feedback for Time Series Forecasting](https://doi.org/10.1016/j.asoc.2025.113758) \\
