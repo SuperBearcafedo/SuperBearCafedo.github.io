@@ -1,6 +1,7 @@
 # 🔥 News
 - The show must go on.
-- *2026.07*: 🎉 [KUMA (Poster)](https://icml.cc/virtual/2026/poster/64743) was accepted by ICML 2026.
+- *2026.07.05*: 🎉 A Unified Framework with Differential State Space Representations under Parallel Encoder and Decoder Scheme for Time Series Forecasting (aka. UMA) was accepted by EAAI.
+- *2026.05*: 🎉 [KUMA (Poster)](https://icml.cc/virtual/2026/poster/64743) was accepted by ICML 2026.
 - *2026.05*: 🎉 [KPMG (Oral)](https://ieeexplore.ieee.org/document/11461257) was accepted by IEEE ICASSP 2026.
 - *2026.05*: 🎉 [GlucoMixer (Poster)](https://ieeexplore.ieee.org/document/11464084) was accepted by IEEE ICASSP 2026.
 - *2026.05*: 🎉 [GluConv (Oral)](https://github.com/SuperBearcafedo/GluConv) was accepted by IEEE PRMVAI 2026. (**Best Paper, Invited as Workshop 21 Chair**)
