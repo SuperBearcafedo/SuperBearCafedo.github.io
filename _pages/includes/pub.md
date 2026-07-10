@@ -68,7 +68,7 @@ Youhao Xu+, **Sijie Xiong+**, Tao Sun, Jianing Wang, Cheng Tang, Atsushi Shimada
 </div>
 
 ## 🚥🚦 Control & Time Series Forecasting
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC</div><img src='images/UMA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EAAI</div><img src='images/UMA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A Unified Framework with Differential State Space Representations under Parallel Encoder and Decoder Scheme for Time Series Forecasting](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence) \\
@@ -82,7 +82,7 @@ Youhao Xu+, **Sijie Xiong+**, Tao Sun, Jianing Wang, Cheng Tang, Atsushi Shimada
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ICASSP 2026 (Oral)</div><img src='images/KPMG.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC</div><img src='images/CMEMamba.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Enhancing Nonlinear Dependencies of Mamba via Negative Feedback for Time Series Forecasting](https://doi.org/10.1016/j.asoc.2025.113758) \\
