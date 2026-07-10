@@ -82,6 +82,20 @@ Youhao Xu+, **Sijie Xiong+**, Tao Sun, Jianing Wang, Cheng Tang, Atsushi Shimada
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML</div><img src='images/KUMA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[KUMA: A Novel Framework with Koopman Separation and Efficient Multilevel Extraction in Time Series Forecasting](https://icml.cc/virtual/2026/poster/64743) \\
+**Sijie Xiong**, Cheng Tang, Atsushi Shimada
+
+[**Project**](https://github.com/SuperBearcafedo/Review/tree/KUMA-Official) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+
+- **Abstract**:  Time series forecasting plays a crucial role in a wide range of real-world applications and has become increasingly complex with the growth of multivariate dimensions and extended historical observations, leading to the prosperity of deep forecasting models. Previous models are hindered by three major challenges: high computational complexity, inefficient token utilization caused by redundancy and scarcity, and temporal distribution shifts resulting from non-stationary dynamics. Inspired by Koopman theory and the success of multilevel encoder–decoder architectures with skip connections, we design an input-dependent **K**oopman module to decompose time series into Koopman dynamics and residual dynamics. Building upon this formulation, we propose a **U**-shaped **M**ultilevel **A**ttention module (UMA) that integrates element-wise attention filtering and linear attention, giving rise to KUMA. The input-dependent Koopman operator mitigates the issue of operator mixture and alleviates temporal distribution shifts, while UMA achieves a favorable balance between token redundancy and token scarcity with acceptable computational efficiency. Comprehensive evaluations across 12 benchmark datasets demonstrate that KUMA achieves superior performance compared to existing excellent approaches.
+- **Core Idea**: Design an adaptive Koopman module; Design the multilevel structure with Mamba-inspired linear attention.
+- **Domain**: Time Series Forecasting, Separation Scheme
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC</div><img src='images/CMEMamba.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
