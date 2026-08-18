@@ -1,6 +1,6 @@
 # 🔥 News
 - The show must go on.
-- *2026.08.14* 🎉KFC: Enhancing Lightweight Chest X-Ray Image Classifiers with Koopman-Inspired Filter was accepted by ICONIP 2026.
+- *2026.08.14* 🎉 KFC: Enhancing Lightweight Chest X-Ray Image Classifiers with Koopman-Inspired Filter was accepted by ICONIP 2026.
 - *2026.07*: 🎉 [U-MA](https://www.sciencedirect.com/science/article/pii/S0952197626019093) was accepted by EAAI.
 - *2026.05*: 🎉 [KUMA (Poster)](https://icml.cc/virtual/2026/poster/64743) was accepted by ICML 2026.
 - *2026.05*: 🎉 [KPMG (Oral)](https://ieeexplore.ieee.org/document/11461257) was accepted by IEEE ICASSP 2026.
