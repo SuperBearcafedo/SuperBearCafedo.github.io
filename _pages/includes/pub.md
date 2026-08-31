@@ -110,19 +110,6 @@ Youhao Xu+, **Sijie Xiong+**, Tao Sun, Jianing Wang, Cheng Tang, Atsushi Shimada
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ICASSP 2026 (Oral)</div><img src='images/KPMG.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[KPMG: A Graphical Koopman-Mamba Approach for Financial Markets](https://ieeexplore.ieee.org/document/11461257) \\
-**Sijie Xiong**, Cheng Tang, Fumiya Okubo, Tsubasa Minematsu, Yinlong Hu, Atsushi Shimada
-
-[**Project**](https://ieeexplore.ieee.org/document/11461257) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
-
-- **Abstract**: Financial markets reflected by indices are substantial components of global economy. While existing models have achieved significant forecasting performance, they struggle to balance temporal and variate dependencies, which results in a trade-off between predictive accuracy and trustworthiness. Moreover, current models suffer from disturbances and impurities embedded in the financial data. To address these challenges, we propose KPMG, an efficient architecture that integrates the strengths of Mamba and Graph Neural Networks. With crucial features emphasized by Koopman operator and both temporal and variate dependencies mixed up in KPMG, accuracy and trustworthiness are significantly advanced. Extensive experiments on nine leading benchmarks across three index datasets demonstrate that KPMG has superiority over counterparts in prediction performance, while remaining acceptable computational complexity. Ablation studies further confirm the effectiveness of each designed module. The Friedman test consolidates the superiority of KPMG over counterparts.
-- **Core Idea**: Leverage Mamba, graphical neural network (GNN) to predict financial markets.
-- **Domain**: Time Series Forecasting, Finance, Index Forecasting
-</div>
-</div>
 
 ## 🏫 Education
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLEA 2025 (The Best Poster)</div><img src='images/FairytaleQA.jpg' alt="sym" width="100%"></div></div>
